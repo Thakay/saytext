@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 package say;
-
+option go_package = "github.com/Thakay/saytext/api";
 service TextToSpeech {
   rpc Say(Text) returns(Speech) {}
 
